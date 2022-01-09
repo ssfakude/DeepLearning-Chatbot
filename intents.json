@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Howzit",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "whoiam",
+      "patterns": [
+        "Who are you?",
+        "What What is your name?",
+        "Who is Simphiwe?"
+ 
+      ],
+      "responses": [
+         "I'm a Lucy (and it's great to meet you) 👋",
+        "I'm not a person, or a robot. I'm software, here to help",
+        "Simphiwe is the Founder of Kalend"
+      ]
+    },
+
+    {
+      "tag": "FAQ",
+      "patterns": [
+        "Do you make custome clothes?",
+        "How long it takes to make a "
+    
+      ],
+      "responses": [
+        "We do make custome orders, contact Simphiwe @ 0711558359",
+        "Our production takes 7- 10 days"
+        
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "Do you design for custom ordes?"
+      ],
+      "responses": [
+        "We sell contemporary streetwear clothing",
+        "We design any custom orders, just for you"
+       
+
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Bitcoin?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Bitcoin",
+        "We accept most major credit cards, including cash",
+        "Yes, you can pay with Bitcoin"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the 0 say to the 8? Nice belt",
+         "How do you make a robot angry? You push it's buttons 🤖"
+      ]
+    },
+    {
+      "tag": "annoyme",
+      "patterns": [
+        "What are you wearing?",
+        "How old are you?"
+      
+      ],
+      "responses": [
+        "In the cloud, no one knows what you're wearing",
+        "They say that age is nothing but a number. But technically, it's also a word"
+       
+      ]
+    }
+  ]
+}
