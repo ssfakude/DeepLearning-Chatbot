@@ -1,6 +1,7 @@
 # Chatbot in PyTorch.  
 Simple online store chatbot implementation with PyTorch. 
 Used a supervised NLP Deep learing algorithms, which also includes (Steming, tokenization, bag of words).
+Moreover, I used flask and the frontend is static JavaScript and html which communicate with the model via API
 
 ![Screenshot](screenshot.png)
 
